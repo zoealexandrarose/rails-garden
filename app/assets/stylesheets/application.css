@@ -18,12 +18,14 @@
 
  .container {
   width: 700px;
-  margin: 0 auto;
+  margin: 20px auto;
+
  }
 
  h1, h2, h3, h4 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  font-size: 20px;
  }
 
  body {
@@ -55,4 +57,11 @@
   margin: 10px;
   border-radius: 5px;
   border: 1px solid black;
+ }
+
+ .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
  }

@@ -7,9 +7,10 @@
 <li><%= plant.name %></li>
 <% end %>
 </ul>
-
+<div class="actions">
 <%= link_to "🌿Grow plant🌿", new_garden_plant_path(@garden.id), class: "link" %>
 <br>
-<%= "--------------------" %>
+
 <br>
 <%= link_to "Back to Gardens", gardens_path, class: "link"  %>
+</div>
