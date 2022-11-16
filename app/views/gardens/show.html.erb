@@ -1,0 +1,15 @@
+<h3><%= @garden.name %></h3>
+
+<h4>🌱Plants🌱</h4>
+
+<ul>
+<% @garden.plants.each do |plant| %>
+<li><%= plant.name %></li>
+<% end %>
+</ul>
+
+<%= link_to "🌿Grow plant🌿", new_garden_plant_path(@garden.id), class: "link" %>
+<br>
+<%= "--------------------" %>
+<br>
+<%= link_to "Back to Gardens", gardens_path, class: "link"  %>

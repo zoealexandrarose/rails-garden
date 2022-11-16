@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+ .container {
+  width: 700px;
+  margin: 0 auto;
+ }
+
+ h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+ }
+
+ body {
+  font-family: 'Lato', sans-serif;
+ }
+
+ ul, li {
+  list-style: none;
+ }
+
+ .link {
+  text-decoration: none;
+  color: black;
+ }
+
+ .link:hover {
+  color: rgb(28, 176, 28);
+ }
+
+ .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .button {
+  background-color: rgb(147, 214, 147);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+ }
