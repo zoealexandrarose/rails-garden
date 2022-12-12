@@ -1,4 +1,4 @@
-<h3 class="pt-2">🌳 Gardens 🌳</h3>
+<h3 class="pt-2 text-center">🌳 Gardens 🌳</h3>
 <div class="flex">
 <% @gardens.each do |garden| %>
 <li class="button"><%= link_to garden.name, garden_path(garden.id), class: "link"  %></li>

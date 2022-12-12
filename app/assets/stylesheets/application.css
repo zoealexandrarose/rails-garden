@@ -53,8 +53,8 @@
 
  .button {
   background-color: rgb(147, 214, 147);
-  padding: 10px;
-  margin: 10px;
+  padding: 30px;
+  margin: 0 auto;
   border-radius: 5px;
   border: 1px solid black;
  }
